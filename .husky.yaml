@@ -1,0 +1,11 @@
+hooks:
+  # hook scripts
+  pre-commit:
+    # - go fmt ./...
+    # - go test -v ./sendDataGoogleIoT 
+    # - husky lint-staged
+  
+# list staged files do some pre-process and git add
+lint-staged:
+  "*.go":
+    - gofmt -l -w
