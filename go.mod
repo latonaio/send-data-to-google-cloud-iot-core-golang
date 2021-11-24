@@ -3,7 +3,7 @@ module send-data-to-google-cloud-iot-core-golang
 go 1.17
 
 require (
-	github.com/dgrijalva/jwt-go v3.2.0+incompatible
+	github.com/dgrijalva/jwt-go v3.2.1
 	github.com/eclipse/paho.mqtt.golang v1.3.5
 	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/latonaio/golang-logging-library v1.0.0-beta.1
